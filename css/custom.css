@@ -176,6 +176,7 @@ input{
   .mastfoot,
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
+    margin-top:-40px;
   }
 }
 
@@ -184,5 +185,12 @@ input{
   .mastfoot,
   .cover-container {
     width: 700px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .site-wrapper{
+    margin-top:40px;
   }
 }
